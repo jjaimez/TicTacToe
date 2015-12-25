@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Tres en línea</string>
+    <string name="one">Un jugador</string>
+    <string name="settings">Preferencias</string>
+    <string name="two">Dos jugadores</string>
+    <string name="oneName">Nombre jugador uno</string>
+    <string name="twoName">Nombre jugador dos</string>
+    <string name="play">Jugar</string>
+    <string name="congratulations">Felicitaciones</string>
+    <string name="win">Felicitaciones, tu ganas.</string>
+    <string name="ops">Ups...</string>
+    <string name="lose">Ups, tu pierdes.</string>
+    <string name="newGame">Juego nuevo</string>
+    <string name="playAgain">JUGAR NUEVAMENTE</string>
+    <string name="tie">Empate</string>
+    <string name="defaultNameOne">Jugador 1</string>
+    <string name="defaultNameTwo">Jugador 2</string>
+    <string name="turn">turno:</string>
+</resources>

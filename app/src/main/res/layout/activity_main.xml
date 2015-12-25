@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayoutGrande"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical"
+
+    tools:context=".MainActivity"
+    style="@style/AppTheme"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    android:gravity="center">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tecpro.tictactoe.MainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/notebook_paper">
+
+    <com.tecpro.tictactoe.MyCustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/one"
+        android:id="@+id/textOne"
+        android:textSize="32dp"
+        android:textIsSelectable="false"
+        android:background="@android:color/transparent"
+        android:textColor="@color/bicAzul"
+        android:clickable="true"
+        android:onClick="startSettings"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2" />
+
+    <com.tecpro.tictactoe.MyCustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/two"
+        android:id="@+id/textTwo"
+        android:textSize="32dp"
+        android:textIsSelectable="false"
+        android:background="@android:color/transparent"
+        android:textColor="@color/bicAzul"
+        android:clickable="true"
+        android:onClick="startSettings"/>
+
+
+</LinearLayout>
+
+<LinearLayout
+android:orientation="horizontal"
+android:layout_width="match_parent"
+android:layout_height="fill_parent"
+android:gravity="center|right">
+
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/imageView"
+    android:src="@drawable/powered_by"
+    android:layout_gravity="center|bottom"
+    android:onClick="pgWeb"
+    android:clickable="true" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:text=" "
+    android:id="@+id/textView6"
+    android:layout_gravity="bottom" />
+
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/imageView2"
+    android:src="@drawable/contact"
+    android:layout_gravity="bottom|right"
+    android:clickable="true"
+    android:onClick="pgWeb" />
+
+</LinearLayout>
+
+    </RelativeLayout>
